@@ -1,0 +1,85 @@
+
+.content {
+    color: #000000;
+    text-align: justify;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.header {
+    display: flex; 
+    align-items: center; 
+    margin: 0 auto; 
+    max-width: 600px; 
+    padding: 10px 0; 
+}
+
+.header .title h3 {
+    font-weight: bold; 
+    color: black;
+    padding-right: 180px;
+    padding-left: 1px;
+}
+.header .title p {
+    text-align: left;
+    font-size: 15px;
+    font-style: italic;
+    margin: 1px 0;
+}
+.header .address{
+    font-style: bold;
+}
+
+.content {
+    margin: 0 auto; 
+    max-width: 600px;
+    align-items: center;    
+    margin-bottom: 10px; 
+}
+.content p {
+    margin: 0 auto; 
+}
+.content .title{
+    background-color: white;
+    background-clip: padding-box;
+    border-style: solid;
+    border-left: black;
+    border-top: black;
+    border-right: black;
+}
+
+.content .n1 {
+    border-style: dotted;
+    border-color: antiquewhite;
+    margin: 3px;
+    background-color: lightgoldenrodyellow;
+    background-clip: padding-box;
+    padding-bottom: 10px;
+}
+.content h4 {
+    background-color:aquamarine;
+}
+
+.content .n2 {
+    border-style: dotted;
+    border-color: antiquewhite;
+    margin: 3px;
+    background-color: lightblue;
+    background-clip: padding-box;
+    padding-bottom: 10px;
+}
+
+.content .n3{
+    border-style: dotted;
+    border-color: antiquewhite;
+    margin: 3px;
+    background-color: lightgrey;
+    background-clip: padding-box;
+    padding-bottom: 10px;
+}
+
+
